@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left , #005ce6 , #008ae6);
+    padding: 4% 0;
+}
+
+.continer .ContinerPanel{
+    width: 0;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 10px #001433;
+    transition: all 1s;
+    
+}
+
+.continer .ContinerPanel .left{
+    width: 50%;
+    background: #f2f2f2;
+    padding: 5% 3%;
+    border-radius: 20px;
+    
+    transition: all 2s;
+    opacity: 0;
+}
+
+.continer .ContinerPanel .right{
+    width: 50%;
+    padding: 5% 3%;
+    border-radius: 20px;
+    transition: all 2s;
+    opacity: 0;
+}
+
+.continer .ContinerPanel .left  form input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 6% 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    background: unset;
+    outline: 0;
+}
+
+.continer > .ContinerPanel > .right >  form > input{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    background: unset;
+    outline: 0;
+    display: block;
+    margin: 6% 0;
+    
+
+}
+
+.continer .ContinerPanel .right form .Date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.continer .ContinerPanel .right form .Date  input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 5% 2%;
+    outline: 0;
+}
+
+.continer .ContinerPanel .right form .Date h5{
+    padding-bottom: 5%;
+}
+.continer .ContinerPanel .right form button{
+    width: 40%;
+    background: linear-gradient(to right,#80ffe1,#d9d9d9,	#ffffe6,#3385ff);
+    border: 0;
+    padding: 3% 2%;
+    box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.2);
+}
